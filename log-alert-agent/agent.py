@@ -11,8 +11,15 @@ def run_agent(log_path, poll_interval=1.0, stream_mode=False):
     def handle_line(line):
         results = classify_alerts([line])
         for result in results:
-            print(f"[!] ALERT: {result['severity']} — {result['message']}")
-            severity_counts[result['severity']] += 1
+            level = result['severity']
+            message = result['message']
+
+            if level in ("High", "Medium"):
+                print(f"[!] ALERT: {level} — {message}")
+            else:
+                print(f"    {level} — {message}")  # No prefix, visually de-emphasized
+
+            severity_counts[level] += 1
 
     # Step 1: Process full file first
     for line in source.read_lines():
