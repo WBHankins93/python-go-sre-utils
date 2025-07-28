@@ -1,6 +1,5 @@
 import json
 import csv
-from tabulate import tabulate
 
 def write_csv(data, output_file):
     """Flatten grouped alerts and write to CSV."""
