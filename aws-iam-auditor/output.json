@@ -1,0 +1,107 @@
+[
+  {
+    "User": "bob",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  },
+  {
+    "User": "devops-admin",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  },
+  {
+    "User": "ci-bot",
+    "Policy": "custom-policy-with-*",
+    "Risk": "Medium"
+  },
+  {
+    "User": "sre-jane",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  },
+  {
+    "User": "k8s-bot",
+    "Policy": "custom-*",
+    "Risk": "Medium"
+  },
+  {
+    "User": "jenkins",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  },
+  {
+    "User": "team-lead",
+    "Policy": "custom-admin-*",
+    "Risk": "High"
+  },
+  {
+    "User": "integration-test-bot",
+    "Policy": "custom-policy-*",
+    "Risk": "Medium"
+  },
+  {
+    "User": "mobile-ci-bot",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  },
+  {
+    "User": "data-lake",
+    "Policy": "custom-glue-*",
+    "Risk": "Medium"
+  },
+  {
+    "User": "terraform-bot",
+    "Policy": "custom-admin-*",
+    "Risk": "High"
+  },
+  {
+    "User": "legacy-admin",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  },
+  {
+    "User": "sandbox-user",
+    "Policy": "custom-*",
+    "Risk": "Medium"
+  },
+  {
+    "User": "temp-contractor-1",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  },
+  {
+    "User": "api-gateway-user",
+    "Policy": "AmazonAPIGatewayAdministrator",
+    "Risk": "High"
+  },
+  {
+    "User": "backup-script",
+    "Policy": "custom-backup-*",
+    "Risk": "Medium"
+  },
+  {
+    "User": "automation-framework",
+    "Policy": "custom-*",
+    "Risk": "Medium"
+  },
+  {
+    "User": "dr-admin",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  },
+  {
+    "User": "ci-test-runner",
+    "Policy": "custom-*",
+    "Risk": "Medium"
+  },
+  {
+    "User": "edge-bot",
+    "Policy": "custom-admin-*",
+    "Risk": "High"
+  },
+  {
+    "User": "eol-user",
+    "Policy": "AdministratorAccess",
+    "Risk": "High"
+  }
+]
