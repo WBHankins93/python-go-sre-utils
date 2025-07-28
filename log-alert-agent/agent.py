@@ -53,8 +53,6 @@ def run_agent(log_path, poll_interval=1.0, stream_mode=False, export_format=None
             write_json(export_data, export_file)
         elif export_format == "csv":
             write_csv(export_data, export_file)
-        elif export_format == "md":
-            write_markdown(export_data, export_file)
 
     print("[✓] Export complete.")
 
